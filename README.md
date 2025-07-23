@@ -3,13 +3,16 @@ AI-powered real-time phishing website detector using machine learning and browse
 
 ## 🚀 Features
 ✅ Real-time URL scanning using live data  
-✅ 48 intelligent features extracted per URL  
-✅ Detects phishing websites using Random Forest classifier  
+✅ 48 intelligent features extracted per URL (DNS, SSL, WHOIS, Playwright, etc.)
+✅ Detects phishing websites using Random Forest classifier 
+✅ Flask REST API for ML model predictions
 ✅ Integrated Flask backend with API for predictions  
 ✅ Chrome Extension to alert users during browsing  
 ✅ WHOIS, SSL, DNS, content, and Playwright-based behavior analysis  
 ✅ Custom dataset training support  
 ✅ Accurate, fast, and privacy-respecting
+✅ Works with browser extension for instant scan
+
 
 ## 🧠 Tech Stack
 
@@ -66,10 +69,34 @@ json
 
 -- Response Example:
 {
-  "prediction": "phishing🔴" / "legit🟢"
-  "confidence": "94.32%" / other
+  "prediction": "phishing🔴" / ("legit🟢"
+  "confidence": "94.32%" / other)
 }
 
                    
 ## 📷 Screenshots
+
+<h3>✅ Legit Website Detection</h3>
+<img src="screenshots/postman-legit.png" width="500">
+
+<h3>❌ Phishing Website Detection</h3>
+<img src="screenshots/postman-phishing.png" width="500">
+
+<h3>🌐 Extension Popup Result</h3>
+<img src="screenshots/extension-scan.png" width="500">
+
+## 🧠 What You Learn
+
+- How to extract phishing indicators in real time
+- How to use browser automation for security tasks
+- How to build your own phishing detection API
+- Full ML + browser extension integration
+
+
+📌Note:
+1).Internet connection is required during training and scanning for real-time features (WHOIS, DNS, content).
+2).This tool performs client-side prediction and does not collect any user data.
+3).The prediction happens locally via your browser and local API server.
+4).Your browsing history is never sent to any external server.
+
 
