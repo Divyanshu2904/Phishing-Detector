@@ -4,11 +4,8 @@ AI-powered real-time phishing website detector using machine learning and browse
 ## 🚀 Features
 ✅ Real-time URL scanning using live data  
 ✅ 48 intelligent features extracted per URL (DNS, SSL, WHOIS, Playwright, etc.)
-
 ✅ Detects phishing websites using Random Forest classifier
-
 ✅ Flask REST API for ML model predictions
-
 ✅ Integrated Flask backend with API for predictions  
 ✅ Chrome Extension to alert users during browsing  
 ✅ WHOIS, SSL, DNS, content, and Playwright-based behavior analysis  
