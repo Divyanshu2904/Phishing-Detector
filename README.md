@@ -76,14 +76,15 @@ json
                    
 ## 📷 Screenshots
 
-<h3>✅ Legit Website Detection</h3>
-<img src="screenshots/postman-legit.png" width="500">
+### ✅ Legit Website Detection
+![Legit Website](screenshots/postman-legit.png)
 
-<h3>❌ Phishing Website Detection</h3>
-<img src="screenshots/postman-phishing.png" width="500">
+### ❌ Phishing Website Detection
+![Phishing Website](screenshots/postman-phishing.png)
 
-<h3>🌐 Extension Popup Result</h3>
-<img src="screenshots/extension-scan.png" width="500">
+### 🌐 Extension Popup Result
+![Extension Result](screenshots/extension-scan.png)
+
 
 ## 🧠 What You Learn
 
