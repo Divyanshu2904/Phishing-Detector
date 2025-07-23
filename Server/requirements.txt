@@ -1,0 +1,8 @@
+# Important libraries for the server-side application
+
+flask
+joblib
+scikit-learn
+pandas
+
+
